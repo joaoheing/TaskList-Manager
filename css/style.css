@@ -1,0 +1,142 @@
+﻿/* Reset */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+body {
+    background-color: #f5f5f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+    input[type="text"]:focus {
+        border-color: #4caf50;
+    }
+
+button {
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    button:hover {
+        background-color: #45a049;
+    }
+
+/* Task List Styles */
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.delete-btn {
+    margin-left: auto;
+    color: #f44336;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+    .delete-btn:hover {
+        color: #d32f2f;
+    }
+
+.completed-tasks {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+#counter {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#clearCompletedButton {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    #clearCompletedButton:hover {
+        background-color: #d32f2f;
+    }

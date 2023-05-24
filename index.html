@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Task List</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Task List</h1>
+        <div class="add-tasks">
+            <div class="input-container">
+                <input type="text" id="taskInput" placeholder="Add a task">
+                <button id="addButton">Add</button>
+            </div>
+        </div>
+        <div class="pending-tasks">
+            <h2>Pending Tasks</h2>
+            <ul id="taskList"></ul>
+        </div>
+        <div class="completed-tasks">
+            <h2>Completed Tasks</h2>
+            <ul id="completedTaskList"></ul>
+        </div>
+        <div class="footer">
+            <span id="counter"></span>
+            <button id="clearCompletedButton">Clear Completed</button>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
